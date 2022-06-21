@@ -17,11 +17,11 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 - [x]  Estrutura de variavei globais no script.
 - [x]  Uso de variáveis globais no `:root`.
 - [x]  Menu interativo.
-- []  Melhorias na performace de carregamento.
+- [ ]  Melhorias na performace de carregamento.
 - [x]  Adicionar favicon.
-- []  Marcar o filme ativo.
-- []  Evento para adicionar um filme.
-- []  Responsividade da aplicação com `@media`.
+- [ ]  Marcar o filme ativo.
+- [ ]  Evento para adicionar um filme.
+- [ ]  Responsividade da aplicação com `@media`.
 
 ## ✨ Linguagens utilizadas:
 
