@@ -6,7 +6,7 @@
 
 Este projeto é um tutorial que ensina a como recriar a interface da **Disney Plus** ao usar _HTML_, _CSS_ e _JavaScript_. Todo o conteúdo da aplicação será gerado dinamicamente ao utilizar o serviço(API) da [TMDB](https://www.themoviedb.org/documentation/api). Essa api fornece todos os dados filme, como título, descrição, capa, foto de background e nota de avaliação.
 
-Para facilitar a codificação do projeto foi usado um protótipo do figma como base, o autor do layout é o design [**Itai Bracha**](https://www.figma.com/@itaibracha), [clique aqui](https://www.figma.com/file/AfcZjKNRxDWOSSI0vrnrls?node-id=0%3A105) para abrir o protótipo no figma.
+Para facilitar a codificação do projeto foi usado um protótipo do figma como base, o autor do layout é o design **Itai Bracha**.
 
 
 ## 🛠️ Features:
