@@ -32,7 +32,7 @@ function getUrlMovie(movieId) {
 function createButtonMovie(movieId) {
     const button = document.createElement('button')
     button.setAttribute('onclick', `setMainMovie('${movieId}')`)
-    button.innerHTML = '<img src="/assets/img/icon-play-button.png" alt="Icon play button" />'
+    button.innerHTML = '<img src="./assets/img/icon-play-button.png" alt="Icon play button" />'
   
     return button
   }
