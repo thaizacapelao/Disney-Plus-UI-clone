@@ -32,4 +32,4 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 
 ## 🔖 Layout:
 
-Você pode visualizar o layout do projeto através [desse link](https://thaizacapelao.github.io/Tela-de-login-League-of-legends/](https://thaizacapelao.github.io/Disney-Plus-UI-clone/).
+Você pode visualizar o layout do projeto através [desse link](https://thaizacapelao.github.io/Disney-Plus-UI-clone/).
