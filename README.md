@@ -9,7 +9,7 @@ Este projeto é um tutorial que ensina a como recriar a interface da **Disney Pl
 Para facilitar a codificação do projeto foi usado um protótipo do figma como base, o autor do layout é o design [**Itai Bracha**](https://www.figma.com/@itaibracha), [clique aqui](https://www.figma.com/file/AfcZjKNRxDWOSSI0vrnrls?node-id=0%3A105) para abrir o protótipo no figma.
 
 
-## 📔 Features:
+## 🛠️ Features:
 
 - [x]  Uso semântico do HTML
 - [x]  Integração com a API do TMDB ao usar o `fetch`.
@@ -23,9 +23,13 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 - [x]  Evento para adicionar um filme.
 - [x]  Responsividade da aplicação com `@media`.
 
-## 🚀 Tecnologias:
+## ✨ Linguagens utilizadas:
 
 - HTML.
 - CSS.
 - JavaScript.
 - [API TMDB](https://www.themoviedb.org/documentation/api).
+
+## 🔖 Layout:
+
+Você pode visualizar o layout do projeto através [desse link](https://thaizacapelao.github.io/Tela-de-login-League-of-legends/](https://thaizacapelao.github.io/Disney-Plus-UI-clone/).
