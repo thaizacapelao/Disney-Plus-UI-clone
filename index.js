@@ -1,7 +1,7 @@
 const API_KEY = 'b7e48e821ec43462b221ed1d9a4af8f9'
 const API_LANGUAGE = 'pt-br'
 const BASE_URL_IMAGE = 'https://www.themoviedb.org/t/p/original/'
-const LIST_MOVIES = ['420818', '10681', '550205', '637693', '10191', '508947', '508943', '527774', '400160', '508442','2062','585', '269149']
+const LIST_MOVIES = ['420818', '10681', '550205', '637693', '10191', '508947', '508943', '527774', '400160', '508442','2062','438695', '269149']
 
 const moviesList = document.getElementById('movies__list')
 
