@@ -1,61 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Disney Plus</title>
-    <meta name="description" content="Plataforma do Disney Plus">
+    <meta name="description" content="Plataforma do disney plus" />
 
-    <link rel="shortcut icon" type="image/jpg" href="./assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/jpg" href="./assets/img/favicon.ico" />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./styles/global.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/global.css" />
+  </head>
+  <body>
     <div id="app">
-        <header>
-            <img src="./assets/img/logo.png" alt="Logo da disney plus">
+      <div class="app__image">
+        <img
+          loading="lazy"
+          alt="Imagem do filme destaque"
+          src="https://www.themoviedb.org/t/p/original/1TUg5pO1VZ4B0Q1amk3OlXvlpXV.jpg"
+        />
+      </div>
+      <header>
+        <img src="./assets/img/logo.png" alt="Logo da disney plus" />
+        <button type="button" class="button__menu" onclick="changeButtonMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
 
-            <button type="button" class="button__menu">
-                <span></span>
-                <span></span>
-                <span></span>
+        <nav class="navigation">
+          <h2>Movies</h2>
+
+          <form class="form" id="add__movie">
+            <input type="text" placeholder="Adicione o seu filme" name="movie" />
+
+            <button type="submit">
+              +
             </button>
-        </header>
-        <main>
-            <section class="movie">
-                <div class="rating">
-                    <img src="./assets/img/logo-imdb.png" alt="Logo da IMDB">
-                    <strong></strong>
-                </div>
+          </form>
+          <ul id="movies">
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="feature__movie">
+          <div class="rating">
+            <img src="./assets/img/logo-imdb.png" alt="Logo da IMDB" />
+            <strong></strong>
+          </div>
 
-                <span></span>
-                <h1></h1>
-                <p></p>
+          <span></span>
 
-                <button>
-                    <img src="./assets/img/icon-play-button.png" alt="Icone de Play">
-                    Watch now
-                </button>
-            
-            </section>
+          <h1></h1>
 
-            <aside class="movies">
-                <h2>Movies</h2>
-                <div>
-                    <ul id="movies__list">
-                    </ul>
-                </div>
-            </aside>
-        </main>
+          <p></p>
+          <button type="button">
+            <img src="./assets/img/icon-play-button.png" alt="Icon play">
+            Assistir agora
+          </button>
+        </section>
+      </main>
     </div>
-    <script src="./index.js"></script>  
-</body>
+    <script src="./scripts/index.js"></script>
+  </body>
 </html>

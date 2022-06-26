@@ -1,21 +1,53 @@
 #app {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-
-    width: 100%;
-    height: 100vh;
-
-    padding: 45px 130px 0;
-    
-    /* background-image: linear-gradient(90.18deg, rgba(13, 22, 46, 0.7) 23.21%, rgba(13, 22, 46, 0.0001) 96.69%), url('../assets/img/background.png'); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  padding: 45px 80px 0 110px;
+}
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.app__image {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+.app__image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90.18deg, rgba(13, 22, 46, 0.7) 23.21%, rgba(13, 22, 46, 0.0001) 96.69%);
+}
+.app__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-main {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+@media(max-width: 1080px) {
+  #app {
+    padding: 40px;
+  }
+}
+
+@media(max-width: 768px) {
+  #app {
+    padding: 24px;
+  }
+}
+
+@media(max-width: 650px) {
+  #app {
+    padding: 16px;
+  }
+
+  .app__image::after {
+    background: linear-gradient(90.18deg, rgba(13, 22, 46, 0.7) 30%, rgba(13, 22, 46, 0.2) 96.69%);
+  }
 }

@@ -25,10 +25,8 @@
 
 :root {
   --primary: #fff;
-
-  --linear: linear-gradient(154.23deg, #0F3A7B -58.45%, #0CFFFF 374.49%);
+  --linear: linear-gradient(154.23deg, #8B4513 -58.45%, #0CFFFF 374.49%);
 }
-
 body, button, textarea, input {
   color: var(--primary);
   font: 400 1rem "Montserrat", sans-serif;

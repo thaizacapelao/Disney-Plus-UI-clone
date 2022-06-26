@@ -1,0 +1,46 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  right: -660px;
+
+  width: 660px;
+  height: 100%;
+  padding: 66px 80px 32px 54px;
+
+  background: var(--linear);
+  transition: all 0.6s;
+  overflow: auto;
+}
+
+.navigation.active {
+  transform: translateX(-660px);
+}
+
+.navigation h2 {
+  font-size: 1.75rem;
+  line-height: 2.125rem;
+  font-weight: 700;
+}
+
+@media(max-height: 750px) {
+  .navigation {
+    padding: 70px 40px 40px;
+  }
+}
+
+@media(max-width: 768px) {
+  .navigation {
+    width: 100vw;
+    right: -100vw;
+  }
+
+  .navigation.active {
+    transform: translateX(-100vw);
+  }
+}
+
+@media(max-width: 650px) {
+  .navigation {
+    padding: 44px 24px 24px;
+  }
+}
