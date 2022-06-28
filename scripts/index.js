@@ -54,7 +54,7 @@ function changeMainMovie(movieId) {
 function createButtonMovie(movieId) {
   const button = document.createElement('button')
   button.setAttribute('onclick', `changeMainMovie('${movieId}')`)
-  button.innerHTML = '<img src="/assets/img/icon-play-button.png"/>'
+  button.innerHTML = '<img src="./assets/img/icon-play-button.png"/>'
   return button
 }
 function createImageMovie(movieImage, movieTitle) {
