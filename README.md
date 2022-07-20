@@ -7,7 +7,6 @@ Este projeto é um tutorial que ensina a como recriar a interface da **Disney Pl
 
 Para facilitar a codificação do projeto foi usado um protótipo do figma como base, o autor do layout é o design **Itai Bracha**.
 
-
 ## 🛠️ Features:
 
 - [x]  Uso semântico do HTML
