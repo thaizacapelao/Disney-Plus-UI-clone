@@ -1,5 +1,6 @@
 # UI Clone - Disney Plus 
 ![firefox_lnxqGmVJVQ](https://user-images.githubusercontent.com/104083691/175835694-6f5eaef6-d86c-488e-ab06-f579c5b92bcf.jpg)
+![image](https://user-images.githubusercontent.com/104083691/216100210-b2deae69-348a-4891-9a51-2625279ee3d7.png)
 
 ## 💻 Projeto
 
