@@ -8,6 +8,7 @@
 <div align="center">
  
 <img alt="Disney-plus" height="50" src="https://thaizacapelao.github.io/Disney-Plus-UI-clone/assets/img/logo.png">
+<br><br><br>
  
 </div>
  
