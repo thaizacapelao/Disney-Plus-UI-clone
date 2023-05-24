@@ -3,7 +3,6 @@
 ![firefox_lnxqGmVJVQ](https://user-images.githubusercontent.com/104083691/175835694-6f5eaef6-d86c-488e-ab06-f579c5b92bcf.jpg)
 ![image](https://github.com/thaizacapelao/Disney-Plus-UI-clone/assets/104083691/14d3f9da-176f-4cf2-bb64-1e21e6fb88f7)
 ![image](https://github.com/thaizacapelao/Disney-Plus-UI-clone/assets/104083691/33b7bbc8-b437-4de7-bdda-4d1eb32c30e0)
-![image](https://github.com/thaizacapelao/Disney-Plus-UI-clone/assets/104083691/e96af927-123a-41e7-88f7-496c5d7262fc)
 
 
 
